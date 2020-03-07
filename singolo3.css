@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Lato Regular', Verdana, sans-serif;
+    }
+
+.header{
+    padding: 20px;
+}
+h1, h3, h4, h5, h6, ul {
+    margin: 0;
+    padding: 0;
+    
+}
+.get{
+    margin-top: 40px;
+    margin-left: 20px;
+    letter-spacing: 0.7px;
+    font-size: 1.8rem;
+    color: #f0d8d9;
+}
+.quote_text{
+    margin-left: 20px;
+    margin-top: 19px;
+    font-size: 1.1rem;
+    line-height: 30px;
+    letter-spacing: 0.1px;
+    color: #f0d8d9;
+}
+.quote{
+    background-color: #ef6b63;
+    width: 1020px;
+    height: 655px;
+    margin: auto;
+}
+.wrapper_foot{
+    background-color: #2d303a;
+    width: 1020px;
+    height: 75px;
+    justify-self: center;
+    margin: auto;
+    display: flex;
+}
+.text{
+    font-size: 0.88rem;
+    line-height: 21px;
+    letter-spacing: -0.8px;
+    margin-top: -7px;
+    margin-left: 10px;
+    width: 320px;
+    color: #f0d8d9;
+    padding-bottom: 6px;
+}
+.info{
+    margin-top: 23px;
+    margin-left: 10px;
+    font-size: 1.2rem;
+    letter-spacing: -0.2px;
+    color: #f0d8d9;
+}
+.quote_area{
+    display: flex;
+}
+.inp{
+    width: 619px;
+    height: 37px;
+    background-color: #d5554f;
+    border-radius: 7px;
+    border: solid 1px #d5554f;
+    color: #ef6b63;
+    padding-left: 13px;
+    margin-top: 17px;
+    transition-property: border, color;
+    transition-duration: 0.05s;
+    transition-timing-function: ease-in;
+}
+
+.textarea{
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 0.8rem;
+    color: #333;
+    width: 630px;
+    
+}
+
+input {outline:none;}
+
+textarea {outline:none;}
+    
+a.tex:active, a.tex:hover, a.tex {
+    text-decoration: none;
+    color: #f0d8d9;
+}
+
+.tex {
+    font-size: 0.73rem;
+    margin-top: 8px;
+    padding-left: 11px;
+}
+
+.links_more {
+    display: grid;
+}
+
+.image {
+    margin-right: 13px;
+}
+
+.thinking {
+    margin-top: 18px;
+    width: 619px;
+    height: 202px;
+    background-color: #d5554f;
+    border-radius: 7px;
+    border: solid 1px #d5554f;
+    color: #ef6b63;
+    padding-left: 12px;
+    padding-top: 9px;    
+}
+
+::placeholder {
+    color: #ef6b63; 
+}
+
+
+.inp:hover, .inp:focus {
+    cursor: pointer;
+    color: #333;
+    border-radius: 7px;
+    border: solid 1px #333;
+}
+
+.thinking:hover, .thinking:focus {
+    cursor: pointer;
+    color: #333;
+    border-radius: 7px;
+    border: solid 1px #333;
+}
+
+.links {
+    display: inline-flex;    
+    width: 153px;
+    padding-top: 22px;
+    padding-left: 293px;
+  }
+
+.copi_text {
+    padding-left: 40px;
+    margin-right: 400px;
+}
+
+.fb, .gl, .tw, .li {
+    padding-left: 8px;
+}
